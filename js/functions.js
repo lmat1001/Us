@@ -1,4 +1,4 @@
-﻿
+
 var $window = $(window), gardenCtx, gardenCanvas, $garden, garden;
 var clientWidth = $(window).width();
 var clientHeight = $(window).height();
@@ -110,7 +110,7 @@ function timeElapse(date){
 	if (seconds < 10) {
 		seconds = "0" + seconds;
 	}
-	var result = "<span class=\"digit\">" + dias + "</span> days <span class=\"digit\">" + horas + "</span> hours <span class=\"digit\">" + minutos + "</span> minutes <span class=\"digit\">" + segundos + "</span> seconds"; 
+	var result = "<span class=\"digit\">" + days + "</span> days <span class=\"digit\">" + hours + "</span> hours <span class=\"digit\">" + minutes + "</span> minutes <span class=\"digit\">" + seconds + "</span> seconds"; 
 	$("#elapseClock").html(result);
 }
 
